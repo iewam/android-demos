@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdActivity">
+
+    <com.lingyizhengxin.customizedview.NavigationBar
+        android:id="@+id/navBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="CustomListView">
+    </com.lingyizhengxin.customizedview.NavigationBar>
+
+    <com.lingyizhengxin.customizedview.CustomListView
+        android:id="@+id/custListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/navBar">
+
+    </com.lingyizhengxin.customizedview.CustomListView>
+
+</RelativeLayout>
